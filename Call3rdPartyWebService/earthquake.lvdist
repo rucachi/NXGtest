@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A1FB18EBD6F96EB0B8D3B02AE28ED39A03C5D86817066C1A42C6A06B240C60EFC40AA53D6E35C4E838504E866887DCC96CD6A2978B17FC6C5962BB8EFAEB860C" Timestamp="1D9403AB7AE95D9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Product="WebApp" ShortDescription="Call3rdPartyWebService" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="aea479ac680a49148654d657b2572669" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="43e2670e3c254d8e8f8ba8a2d8431295" p3:CustomNipmPackageName="earthquake" p3:DistributionCategory="Application" p3:MaintainerEmail="rucachi@naver.com" p3:MaintainerName="me" p3:PackageDisplayName="WebApp_2" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="17102b52d08f44c08a8f99822c2257dc" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="dbe4457de2ce4f18a736e2baaead6adc" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI 웹 서버" Id="4957f7eea9b84ff48ea8cb17a3abe2d2" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.1.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>

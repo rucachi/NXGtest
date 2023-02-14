@@ -1,0 +1,21 @@
+﻿Architecture: windows_x64
+CompatibilityVersion: 0
+Description: Package that indicates the current system is running a 64-bit Windows operating system.
+DisplayName: System Package for 64-Bit Windows OS
+DisplayVersion: 2022 Q3
+Essential: yes
+Eula: eula-ni-standard
+Filename: system-windows-x64.nipkg
+Homepage: https://www.ni.com
+MD5Sum: 4b0d52471d0e6504914b2edd0a3637ed
+MD5sum: 4b0d52471d0e6504914b2edd0a3637ed
+Maintainer: National Instruments <support@ni.com>
+OsRequires: >= 10
+OsSupport: WINDOWS_11 WINDOWS_SERVER_2022 WINDOWS_10_64BIT WINDOWS_SERVER_2016_64BIT WINDOWS_SERVER_2019_64BIT
+Package: system-windows-x64
+Plugin: file
+Priority: standard
+Section: Infrastructure
+Size: 694
+Version: 22.5.0.49189-0+f37
+
